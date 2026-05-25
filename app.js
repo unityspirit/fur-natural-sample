@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 //  FUR NATURAL — app.js   (ScrollCanvas Engine v3 — REBUILT)
 //  900 frames, 6 clips × 150, synced to native scroll
 // ============================================================
@@ -43,8 +43,8 @@ const loaderEl = document.createElement('div');
 loaderEl.id = 'loader';
 loaderEl.innerHTML = `
   <div class="loader-inner">
-    <img src="images/logo.png" alt="Fur Natural" style="width:112px;height:112px;object-fit:contain;border-radius:10px;margin-bottom:8px">
-    <div class="loader-logo">FUR NATURAL</div>
+    <img src="images/logo.svg" alt="Fur Natural" style="width:112px;height:112px;object-fit:contain;border-radius:10px;margin-bottom:8px">
+    <div class="loader-logo">ВАША КОМПАНИЯ</div>
     <div class="loader-bar-wrap"><div class="loader-bar" id="loader-bar"></div></div>
     <div class="loader-pct" id="loader-pct">0%</div>
   </div>`;
